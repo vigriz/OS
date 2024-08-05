@@ -1,3 +1,4 @@
+//Compile the program using gcc -o
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
