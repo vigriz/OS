@@ -1,4 +1,6 @@
 //Compile the program using gcc -o
+Run the compiled program with a number as a command-line argument: ./task_scheduler 5
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
