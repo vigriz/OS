@@ -35,3 +35,21 @@ do
 	done
 	echo ""
 done
+
+Output:
+Enter m>> 2
+Enter n>> 2
+
+mat1[0,0] : 1
+mat1[0,1] : 2
+mat1[1,0] : 3
+mat1[1,1] : 4
+
+mat2[0,0] : 5
+mat2[0,1] : 6
+mat2[1,0] : 7
+mat2[1,1] : 8
+
+Result Matrix: 
+6 8 
+10 12 
