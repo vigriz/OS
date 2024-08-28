@@ -29,3 +29,12 @@ void main(){
 		exit(0);
 	}
 }
+
+
+[PARENT] My PID is 1234
+[PARENT] My child's PID is 1235
+[PARENT] I am exitting...
+[CHILD] My PID is 1235
+[CHILD] My parent's PID is 1234
+[CHILD] I am sleeping for 10 secs...
+[CHILD] My Parent Process has terminated. I am an orphan process adopted by Init Process(pid:1)
