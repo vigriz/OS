@@ -25,7 +25,26 @@ int main() {
     }
     
     // Close the file
+
+    
     fclose(fp);
     
     return 0;
 }
+
+
+Output:
+Sample Input
+Filename: example.txt
+Pattern: search
+Contents of example.txt:
+
+This is a sample file.
+It contains several lines.
+Some of these lines contain the word search.
+You can use this file to test the search functionality.
+Have a good day!
+
+Some of these lines contain the word search.
+You can use this file to test the search functionality.
+
