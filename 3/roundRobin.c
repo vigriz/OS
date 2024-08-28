@@ -142,3 +142,30 @@ int main() {
     free(inqueue);
     return 0;
 }
+
+
+Output:
+Enter num. of processes >> 4
+
+PID  AT  BT
+1    0   5
+2    1   4
+3    2   2
+4    3   1
+
+Enter time quantum >> 2
+
+PID   AT   BT   CT   TT   WT
+1     0    5    10   10   5
+2     1    4    12   11   7
+3     2    2    7    5    3
+4     3    1    6    3    2
+
+Gantt chart >>
+-----------------------------------
+  P1  |  P2  |  P3  |  P4  |  P1  |  P2  |
+-----------------------------------
+0     2     4     6     7     9     12
+
+Avg turn around time >> 7.25
+Avg waiting time >> 4.25
