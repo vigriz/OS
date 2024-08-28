@@ -25,3 +25,14 @@ void main(int argc, char* argv[]){
 	}
 	
 }
+
+
+Output:
+gcc -o parent Parent.c -lrt
+gcc -o child Child.c -lrt
+Enter n>> 5
+1 3 5 7 9
+Enter n>> 3
+1 3 5
+Enter n>> 1
+1
