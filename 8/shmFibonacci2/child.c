@@ -27,3 +27,13 @@ void main(int argc, char* argv[]){
 	for(int i=0;i<n;i++) 
 		shared_memory[i]=buffer[i];
 }
+
+
+Output:
+gcc -o parent parent.c -lrt
+gcc -o child child.c -lrt
+
+./parent
+Enter n>> 10
+0 1 1 2 3 5 8 13 21 34
+
