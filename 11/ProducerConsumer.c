@@ -54,3 +54,27 @@ void main(){
 	sem_destroy(&empty);
 	sem_destroy(&full);
 }
+
+
+gcc -o producer_consumer producer_consumer.c -pthread
+./producer_consumer
+Producer 1 has put 34 in buffer
+Consumer 1 has consumed 34
+Producer 2 has put 12 in buffer
+Consumer 2 has consumed 12
+Producer 3 has put 58 in buffer
+Consumer 3 has consumed 58
+Producer 4 has put 97 in buffer
+Consumer 4 has consumed 97
+Producer 5 has put 23 in buffer
+Consumer 5 has consumed 23
+Producer 1 has put 74 in buffer
+Consumer 1 has consumed 74
+Producer 2 has put 82 in buffer
+Consumer 2 has consumed 82
+Producer 3 has put 45 in buffer
+Consumer 3 has consumed 45
+Producer 4 has put 66 in buffer
+Consumer 4 has consumed 66
+Producer 5 has put 90 in buffer
+Consumer 5 has consumed 90
