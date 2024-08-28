@@ -91,3 +91,25 @@ void main(){
    printf("\n\nAvg turn around time >> %.2f\n", (float)tottt/n);
    printf("Avg waiting time >> %.2f\n", (float)totwt/n);
 }
+
+
+Ouput:
+Enter no. of processes: 3
+PID    AT   BT
+1      0    4
+2      1    3
+3      2    2
+
+PID    AT   BT    CT   TT   WT
+1     0    4     4    4    0
+2     1    3     7    6    3
+3     2    2     9    7    5
+
+Ghant Chart 
+-------
+  P1  |-------  P2  |----  P3  |
+-------
+0      4      7      9
+
+Avg turn around time >> 5.67
+Avg waiting time >> 2.67
