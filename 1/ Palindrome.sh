@@ -12,3 +12,11 @@ if [ "$str1" == "$str2" ]; then
 else
     echo "Not a palindrome"
 fi
+
+Output1 :
+Enter string>> level
+Palindrome
+
+Output2:
+Enter string>> hello
+Not a palindrome
