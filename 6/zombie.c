@@ -30,3 +30,12 @@ void main(){
 	}
 
 }
+
+Output:
+[PARENT] My PID is: 1234
+[PARENT] My child's PID is: 1235
+[PARENT] I'm sleeping for 10 secs...
+[CHILD] My PID is: 1235
+[CHILD] My parent's PID is: 1234
+[CHILD] I am exitting...
+[PARENT] My child (pid:1235) has terminated but its entry is in the process table. It's a zombie process
