@@ -18,3 +18,11 @@ do
 		echo "$i "
 	fi
 done
+
+Output:
+Enter start (2-x)>> 10
+Enter end (2-x)>> 20
+11 
+13 
+17 
+19 
