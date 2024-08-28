@@ -62,3 +62,21 @@ void main() {
 
     free(isCompleted);
 }
+
+Output: 
+No. of processes: 4
+
+PID    AT    BT
+1      0     6
+2      1     8
+3      2     7
+4      3     3
+
+PID    AT    BT    CT    TT    WT
+1      0     6     6     6     0
+2      1     8     17    16    8
+3      2     7     19    17    10
+4      3     3     10    7     4
+
+Avg. Turnaround Time: 11.50
+Avg. Waiting Time: 5.50
