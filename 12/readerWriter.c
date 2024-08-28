@@ -46,3 +46,28 @@ void main(){
 	pthread_mutex_destroy(&mutex);
 	sem_destroy(&wrt);
 }
+
+
+Output:
+gcc -o read_write read_write.c -pthread
+./read_write
+Reader 1 read cnt as 1
+Reader 2 read cnt as 1
+Reader 3 read cnt as 1
+Reader 4 read cnt as 1
+Reader 5 read cnt as 1
+Reader 6 read cnt as 1
+Reader 7 read cnt as 1
+Reader 8 read cnt as 1
+Reader 9 read cnt as 1
+Reader 10 read cnt as 1
+Writer 1 modified cnt to 2
+Writer 2 modified cnt to 4
+Writer 3 modified cnt to 8
+Writer 4 modified cnt to 16
+Writer 5 modified cnt to 32
+Writer 6 modified cnt to 64
+Writer 7 modified cnt to 128
+Writer 8 modified cnt to 256
+Writer 9 modified cnt to 512
+Writer 10 modified cnt to 1024
