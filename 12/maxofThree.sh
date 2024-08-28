@@ -14,3 +14,13 @@ else
 	echo "$c"
 fi
 	
+Output:
+Enter three numbers (space separated): 
+7 5 3
+Largest Number: 7
+Enter three numbers (space separated): 
+4 9 6
+Largest Number: 9
+Enter three numbers (space separated): 
+2 4 8
+Largest Number: 8
