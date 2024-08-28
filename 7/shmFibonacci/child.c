@@ -25,3 +25,10 @@ void main(int argc, char* argv[]){
 	for(int i=0;i<n;i++)
 		shared_memory[i]=buffer[i];
 }
+
+Run the parent program:
+./parent
+
+Output:
+Enter n>> 10
+0 1 1 2 3 5 8 13 21 34 
