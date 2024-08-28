@@ -35,3 +35,14 @@ void main(int argc, char* argv[]){
 		shm_unlink("chandan");
 	}
 }
+
+Output:
+gcc -o parent Parent.c -lrt
+gcc -o child Child.c -lrt
+./parent 10 30
+./parent 10 30
+11 13 17 19 23 29
+./parent 5 15
+5 7 11 13
+./parent 1 10
+2 3 5 7
