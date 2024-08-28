@@ -38,4 +38,21 @@ void main(){
 	n = read(fd,buffer,10);
 	write(1,buffer,n);
 	printf("\n");
+
+Output:
+Assuming the file a.txt contains the following text:
+abcdefghijklmnopqrstuvwxyz
+
+Reading first 10 characters from file
+abcdefghij
+
+Skipping 5 characters from current position in the file
+klmnopqrs
+
+Going to 5th last character in the file
+vwxyz
+
+Going to the 3rd character in the file
+cdefghijk
+
 }
