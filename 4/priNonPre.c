@@ -108,3 +108,25 @@ void main() {
 
     free(isCompleted);
 }
+
+Output:
+No. of Processes>> 3
+
+PID	AT	BT	PRI
+1	0	4	2
+2	1	3	1
+3	2	2	3
+
+PID	AT	BT	PRI	CT	TT	WT
+1	0	4	2	7	7	3
+2	1	3	1	10	9	6
+3	2	2	3	4	2	0
+
+Gantt Chart
+-------------------
+  P1  |  P3  |  P2  |
+-------------------
+0      4      7      10      
+
+Avg. Turnaround Time: 6.00
+Avg. Waiting Time: 3.00
