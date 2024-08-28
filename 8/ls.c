@@ -22,3 +22,23 @@ void main(int argc, char* argv[]){
 		printf("%s\n",dirp->d_name);
 	}
 }
+
+
+Output:
+First, compile the program with:
+gcc -o list_dir list_dir.c
+To test the program, you need to pass a directory path as an argument. For instance:
+./list_dir /path/to/directory
+Assuming /path/to/directory contains the following files and subdirectories:
+file1.txt
+file2.txt
+subdir1
+subdir2
+Example Command:
+./list_dir /path/to/directory
+
+file1.txt
+file2.txt
+subdir1
+subdir2
+
