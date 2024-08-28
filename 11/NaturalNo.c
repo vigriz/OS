@@ -68,3 +68,10 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
+Output:
+gcc -o task_scheduler task_scheduler.c -pthread
+./task_scheduler 5
+Sum of natural numbers up to 5: 15
+Factorial of 5: 120
+Both threads have completed execution.
