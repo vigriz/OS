@@ -47,3 +47,14 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
+Output:
+gcc -o my_cat my_cat.c
+./my_cat somefile.txt
+Hello, World!
+This is a sample text file.
+It contains multiple lines of text.
+./my_cat somefile.txt
+Hello, World!
+This is a sample text file.
+It contains multiple lines of text.
